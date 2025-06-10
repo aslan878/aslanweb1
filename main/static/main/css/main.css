@@ -1,0 +1,51 @@
+body{
+    background: Aquamarine;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+aside{
+    fload:left;
+    background: MediumAquamarine;
+    width:30%;
+    padding:2.5%;
+    height:100vh;
+    color:white;
+    border-right:7px solid black;
+}
+
+aside img{
+    width:200px;
+}
+
+aside ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+aside ul li{
+    color:LightCyan;
+    display:block;
+    font-size:25px;
+    transition:all .4s ease;
+}
+
+aside ul li:hover,aside ul a:hover{
+    color:DarkCyan;
+    font-size:29px;
+}
+
+main{
+    fload:left;
+    margin-top:100px;
+    text-aling:left;
+    flex: 1;
+}
+
+button{
+    color:red;
+}
